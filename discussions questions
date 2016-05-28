@@ -1,0 +1,40 @@
+discussions questions start time: 4pm end time 4:40pm
+
+runtime:
+
+1. O(n)
+
+2. o(2^n), o(n^2), o(n log n), o(n), o(log n), o(1)
+
+stacks and queues:
+
+1. 1) loading and unloading pallets on a truck: Stacjk
+    2) capping bottles on assembly line: queue
+   3) 2 + (7*4)-(3/2): Stack? - not sure, as you would do the parenthasis first 
+        and then add or substract. it doesnt really matter the order.
+2. a queue would be good when you:
+    1. when you are filling orders. first order made gets filled first
+    2. when waiting in line to use the bathroom 
+3. stacks would be good when you:
+    1. are removing plates from a cabinet
+    2. unpacking a box
+
+linked lists:
+
+1. the nodes are the boxes that contain both the data and the next pointer
+    the data for the nodes are: Apple, Berry, Cherry
+    the head points to the apple node
+    the tail would point to the Cherry node, but I dont see one drawn on the diagram
+
+2. a doubly linked list keeps track of not only which node is next, but also which node came before. a singly linked list only keeps track of what node is next.
+
+3. if you keep track of the end/ tail of the list then you know where to go to add a new node. Otherwise you would have to traverse down the list until you get to the node whose next attribue pointed to none and then add the new node. knowing the end of the list makes the append an o(1) opperation, where having to traverse the list before appending would make it an o(n) opperation.
+
+trees:
+
+1. food > Italian > Indian > Mexican > lasagna > pizza > tikka masala > saag > burrito
+
+2. food > mexican > enchiladas > tacos > burritos >indian > saag > tikka masalaa >italian > pizza > sicilian > new york style > chicago style
+
+3. in a binary tree search each node has at most 2 children nodes. the child node to the left would be < then the parent node and the child node to the right would be > then the parent node. this make searching the data structure fast because each choice that is made reduces the possible choices in half. therefore the runtime of a binary search tree should be o(log n). They are also only fast if they are balanced. 
+
